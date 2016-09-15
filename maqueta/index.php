@@ -9,7 +9,7 @@
                 <div class="item col-md-3 col-sm-6 col-xs-12">
                     <div class="item-inner">
                        <div class="fs1">
-                          <i class="fa fa-bicycle"></i>
+                          <i class="fa fa-bicycle circulo-item"></i>
                        </div>                                            
                         <h3 class="sub-title">Skilled team</h3>
                         <div class="desc">
@@ -20,7 +20,7 @@
                 <div class="item col-md-3 col-sm-6 col-xs-12 sm-break">
                     <div class="item-inner">
                         <div class="fs1">
-                            <i class="fa fa-binoculars"></i>
+                            <i class="fa fa-binoculars circulo-item"></i>
                         </div>
                         <h3 class="sub-title">Agile approach</h3>
                         <div class="desc">
@@ -30,7 +30,7 @@
                 </div><!--//item-->
                 <div class="item col-md-3 col-sm-6 col-xs-12">
                     <div class="item-inner">
-                        <div class="fs1"><i class="fa fa-map-signs" aria-hidden="true"></i></div>
+                        <div class="fs1"><i class="fa fa-map-signs circulo-item" aria-hidden="true"></i></div>
                         <h3 class="sub-title">High quality code</h3>
                         <div class="desc">
                             <p>Tell your potential client why they should choose your service and how you are different from your competitors.</p>
@@ -39,7 +39,7 @@
                 </div><!--//item-->
                 <div class="item col-md-3 col-sm-6 col-xs-12">
                     <div class="item-inner">
-                        <div class="fs1"><i class="fa fa-bed"></i></div>                        
+                        <div class="fs1"><i class="fa fa-bed circulo-item"></i></div>                        
                         <h3 class="sub-title">No overheads</h3>
                         <div class="desc">
                             <p>Tell your potential client why they should choose your service and how you are different from your competitors.</p>
