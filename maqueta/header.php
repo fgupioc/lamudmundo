@@ -32,7 +32,6 @@
         <!-- ******HEADER****** --> 
       <?php include("inc/nav-main.php") ?>  
       <!-- ****** end HEADER****** --> 
-       <?php include("inc/slider-main.php") ?>
- 
+       <?php include("inc/slider-main.php") ?> 
        
     </div><!--//header-wrapper-->

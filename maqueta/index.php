@@ -244,20 +244,33 @@
         <div class="container text-center">
             <h2 class="title">Se uno de Ellos</h2>
             <p class="intro">Gracia por confiar en nosotros</p>
-            <ul class="logo-list list-inline row">
-                <li class="col-md-3 col-sm-3 col-xs-6"><a href="#"><img class="img-responsive" src="assets/images/logos/logo-1.png" alt="" /></a></li>
-                <li class="col-md-3 col-sm-3 col-xs-6 xs-break"><a href="#"><img class="img-responsive" src="assets/images/logos/logo-2.png" alt="" /></a></li>
-                <li class="col-md-3 col-sm-3 col-xs-6"><a href="#"><img class="img-responsive" src="assets/images/logos/logo-3.png" alt="" /></a></li>                   
-                <li class="col-md-3 col-sm-3 col-xs-6"><a href="#"><img class="img-responsive" src="assets/images/logos/logo-4.png" alt="" /></a></li> 
-            </ul><!--//logo-list-->
-            <ul class="logo-list list-inline row last">
-                <li class="col-md-3 col-sm-3 col-xs-6"><a href="#"><img class="img-responsive" src="assets/images/logos/logo-5.png" alt="" /></a></li>
-                <li class="col-md-3 col-sm-3 col-xs-6 xs-break"><a href="#"><img class="img-responsive" src="assets/images/logos/logo-6.png" alt="" /></a></li>
-                <li class="col-md-3 col-sm-3 col-xs-6"><a href="#"><img class="img-responsive" src="assets/images/logos/logo-7.png" alt="" /></a></li>                   
-                <li class="col-md-3 col-sm-3 col-xs-6"><a href="#"><img class="img-responsive" src="assets/images/logos/logo-8.png" alt="" /></a></li>                   
-            </ul><!--//logos-list-->               
+             <div id="owl-sponsor">          
+              <div class="item"><img src="assets/images/logos/logo-1.png" alt="Owl Image"></div>
+              <div class="item"><img src="assets/images/logos/logo-2.png" alt="Owl Image"></div>
+              <div class="item"><img src="assets/images/logos/logo-3.png" alt="Owl Image"></div>
+              <div class="item"><img src="assets/images/logos/logo-4.png" alt="Owl Image"></div>
+              <div class="item"><img src="assets/images/logos/logo-5.png" alt="Owl Image"></div>
+              <div class="item"><img src="assets/images/logos/logo-6.png" alt="Owl Image"></div>
+              <div class="item"><img src="assets/images/logos/logo-7.png" alt="Owl Image"></div>
+              <div class="item"><img src="assets/images/logos/logo-8.png" alt="Owl Image"></div>
+              <div class="item"><img src="assets/images/logos/logo-3.png" alt="Owl Image"></div>
+              <div class="item"><img src="assets/images/logos/logo-4.png" alt="Owl Image"></div>
+              <div class="item"><img src="assets/images/logos/logo-5.png" alt="Owl Image"></div>
+              <div class="item"><img src="assets/images/logos/logo-6.png" alt="Owl Image"></div>  
+            </div>
         </div><!--//container-->
     </section>
     <!--//logos-->      
+    <style>
+
+</style>
     
 <?php include("footer.php") ?>
+<script>
+
+</script>
+
+
+
+
+

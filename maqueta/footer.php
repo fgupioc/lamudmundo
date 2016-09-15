@@ -157,6 +157,7 @@
     
     <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
     <script src="assets/js/demo/style-switcher.js"></script>
+    <script src="assets/js/script.js"></script>
     
 </body>
  

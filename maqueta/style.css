@@ -40,3 +40,11 @@ transform: scale(1.2);
  transform-origin: center bottom;
  transform: rotateX(-90deg) translateY(100%);
 }
+#owl-sponsor .item{
+  margin: 3px;
+}
+#owl-sponsor .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
