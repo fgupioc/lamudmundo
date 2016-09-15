@@ -1,11 +1,3 @@
-/*   
- * Template Name: DevStudio - Responsive Website Template for web design & development agencies
- * Version: 1.5
- * Author: Xiaoying Riley at 3rd Wave Media
- * Website: http://themes.3rdwavemedia.com/
- * Twitter: @3rdwave_themes
-*/
-/* ======= Base ======= */
 body {
   font-family: 'Merriweather Sans', arial, sans-serif;
   color: #666;
@@ -824,6 +816,8 @@ border: 0px solid #000000;
 }
 .latest-blog .item-inner {
   background-color: #fff;
+  height: 187px;
+  overflow: hidden;
 }
 .latest-blog .item-inner .figure {
   background-color: #3b4452;
@@ -853,7 +847,7 @@ border: 0px solid #000000;
 .latest-blog .item-inner .sub-title {
   margin-top: 15px;
   margin-bottom: 30px;
-  font-size: 22px;
+  font-size: 18px;
 }
 .latest-blog .item-inner .sub-title a {
   color: #65758e;
@@ -862,7 +856,7 @@ border: 0px solid #000000;
   color: #71c4e0;
 }
 .latest-blog .item-inner .content-wrapper {
-  padding: 30px;
+  padding: 4px;
 }
 /* ======= Work-list section ======= */
 .work-list {

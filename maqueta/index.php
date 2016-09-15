@@ -130,7 +130,7 @@
     <!-- ******Latest blog Section****** -->
     <section id="latest-blog" class="latest-blog section">
         <div class="container">
-            <h2 class="title text-center">Latest Blog Posts</h2>
+            <h2 class="title text-center">Nuevos Blogs</h2>
             <div class="row">
                 <div class="item col-md-3 col-sm-4 col-xs-12">
                     <div class="item-inner">
@@ -258,7 +258,6 @@
             </ul><!--//logos-list-->               
         </div><!--//container-->
     </section>
-    <!--//logos-->    
-   
+    <!--//logos-->      
     
 <?php include("footer.php") ?>
