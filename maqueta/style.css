@@ -40,6 +40,7 @@ transform: scale(1.2);
  transform-origin: center bottom;
  transform: rotateX(-90deg) translateY(100%);
 }
+/*slider de sponsorr*/
 #owl-sponsor .item{
   margin: 3px;
 }
@@ -48,3 +49,42 @@ transform: scale(1.2);
   width: 100%;
   height: auto;
 }
+
+/* imagen del blog main*/
+.latest-blog {
+   
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ background-position: 0 0;    
+   width: 100%;
+   background-repeat: no-repeat;
+   background-attachment: 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.cta-section{
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+ background-position: 0 0;
+}
+
+.who {
+   
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ background-position: 0 0;    
+   width: 100%;
+   background-repeat: no-repeat;
+   background-attachment: 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+

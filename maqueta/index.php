@@ -1,7 +1,7 @@
 <?php include("header.php") ?>
        
     <!-- ******Why Section****** -->
-    <section id="who" class="who section">
+    <section id="who" class="who section" style="background-image: url(img/iglesia_lamud.jpg);">
         <div class="container text-center">
             <h2 class="title text-center">!Lo que se puede encontrar¡</h2>
             <p class="intro text-center">Las fiestas patronales de Lámud se celebran el 14 de septiembre, día de la fiesta del Señor de Gualamita, advocación muy venerada en la zona y es visitada por más de 10 000 devotos.</p>
@@ -128,7 +128,7 @@
     </section>
     <!--//latest-work-->    
     <!-- ******Latest blog Section****** -->
-    <section id="latest-blog" class="latest-blog section">
+    <section id="latest-blog" class="latest-blog section" style="background-image: url(img/huayllabelen.jpg);">
         <div class="container">
             <h2 class="title text-center">Nuevos Blogs</h2>
             <div class="row">

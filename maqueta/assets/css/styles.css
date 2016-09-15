@@ -485,16 +485,15 @@ body.no-header-wrapper {
   font-size: 36px;
   font-family: 'Open Sans', arial, sans-serif;
   font-weight: 800;
-  color: #505c70;
+  color: white;
   margin-top: 0;
   margin-bottom: 30px;
 }
 .who .intro {
   margin: 0 auto;
-  max-width: 700px;
-  color: #666;
+  max-width: 700px; 
   font-size: 20px;
-  color: #65758e;
+  color: white;
   margin-bottom: 60px;
   font-weight: 300;
 }
@@ -807,7 +806,7 @@ border: 0px solid #000000;
   font-size: 36px;
   font-family: 'Open Sans', arial, sans-serif;
   font-weight: 800;
-  color: #505c70;
+  color: white;
   margin-top: 0;
   margin-bottom: 80px;
 }
