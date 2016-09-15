@@ -14,8 +14,8 @@
             </div><!--//navbar-header-->
             <div id="navbar-collapse" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active nav-item"><a href="index-2.html">Home</a></li>
-                    <li class="nav-item dropdown">
+                    <li class="active nav-item"><a href="index-2.html">Inicio</a></li>
+                   <!--<li class="nav-item dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="work.html">Work <i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="work.html">Our Work</a></li>
@@ -25,9 +25,9 @@
                             <li><a href="404.html">404 Page</a></li>            
                         </ul>
                     </li><!--//dropdown--> 
-                    <li class="nav-item"><a href="about.html">About</a></li>                                              
-                    <li class="nav-item"><a href="blog.html">Blog</a></li>
-                    <li class="nav-item last"><a href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a href="about.html">Actualid</a></li>
+                    <li class="nav-item"><a href="about.html">Turismo</a></li> 
+                    <li class="nav-item last"><a href="contact.html">Contacto</a></li>
                 </ul><!--//nav-->
             </div><!--//navabr-collapse-->
         </nav><!--//main-nav-->

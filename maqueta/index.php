@@ -54,7 +54,7 @@
     <!-- ******Latest work section****** -->
     <section id="latest-work" class="latest-work section">
         <div class="container-fluid text-center">
-            <h2 class="title text-center">Lo más impotantes</h2>
+            <h2 class="title text-center">Los más vistos</h2>
             <div id="work-carousel" class="items owl-carousel owl-theme">
                 <div class="item item-1">
                     <div class="row">
