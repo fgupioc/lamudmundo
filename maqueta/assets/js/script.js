@@ -31,5 +31,36 @@ $(document).ready(function() {
             'background-position:': '0 -'+posicion+'px'
         });
     });
+
+     $(window).scroll(function(){
+        var barra = $(window).scrollTop();
+        var posicion = barra*1;
+       if (barra>50) {
+         $('.banner1').css({
+            'top': ''+(50+posicion)+'px'
+        });
+          $('.banner2').css({
+            'top': ''+(50+posicion)+'px'
+        });
+       }else{
+        $('.banner1').css({
+            'top': '59px'
+        });
+        $('.banner2').css({
+            'top': '59px'
+        });
+       } 
+    });
+
+     $('#publicidad1').click(function(){ 
+         $('.banner1').css({
+            'display': 'none' 
+        });
+     });
+     $('#publicidad2').click(function(){ 
+         $('.banner2').css({
+            'display': 'none' 
+        });
+     });
     
 });
