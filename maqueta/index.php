@@ -1,5 +1,7 @@
 <?php include("header.php") ?>
-       
+        
+       <?php include("inc/slider-main.php") ?>        
+ 
     <!-- ******Why Section****** -->
     <section id="who" class="who section" style="background-image: url(img/iglesia_lamud.jpg);">
         <div class="container text-center">

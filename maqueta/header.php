@@ -42,12 +42,7 @@
         </button> 
         </div>
     </section> 
-    <div class="header-wrapper header-wrapper-home">
-        <!-- ******HEADER****** --> 
-      <?php include("inc/nav-main.php") ?>  
-      <!-- ****** end HEADER****** --> 
-       <?php include("inc/slider-main.php") ?> 
-       
-    </div><!--//header-wrapper-->
+     <?php include("inc/nav-main.php") ?>  
+   
     
       

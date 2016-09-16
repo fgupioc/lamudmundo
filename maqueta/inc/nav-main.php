@@ -1,7 +1,7 @@
 <header id="header" class="header navbar-fixed-top">  
     <div class="container">       
         <h1 class="logo">
-            <a href="index-2.html"><span class="highlight">Lamud</span>Mundo</a>
+            <a href="index.php"><span class="highlight">Lamud</span>Mundo</a>
         </h1><!--//logo-->
         <nav class="main-nav navbar-right" role="navigation">
             <div class="navbar-header">
@@ -14,7 +14,7 @@
             </div><!--//navbar-header-->
             <div id="navbar-collapse" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active nav-item"><a href="index-2.html">Inicio</a></li>
+                    <li class="nav-item"><a href="index.php">Inicio</a></li>
                    <!--<li class="nav-item dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="work.html">Work <i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu">
@@ -25,7 +25,7 @@
                             <li><a href="404.html">404 Page</a></li>            
                         </ul>
                     </li><!--//dropdown--> 
-                    <li class="nav-item"><a href="about.html">Actualidad</a></li>
+                    <li class="nav-item"><a href="actualidad-blog.php">Actualidad</a></li>
                     <li class="nav-item"><a href="about.html">Turismo</a></li> 
                     <li class="nav-item last"><a href="contact.html">Contacto</a></li>
                 </ul><!--//nav-->
