@@ -95,6 +95,10 @@
     <script type="text/javascript" src="assets/plugins/owl-carousel/owl.carousel.js"></script> 
     <script type="text/javascript" src="assets/js/owl-custom.js"></script> 
     
+     <script type="text/javascript" src="assets/plugins/imagesloaded.pkgd.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/isotope.pkgd.min.js"></script>    
+    <script type="text/javascript" src="assets/js/isotope-custom.js"></script>
+    
     
     <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
     <script src="assets/js/demo/style-switcher.js"></script>

@@ -1,5 +1,5 @@
 $(document).ready(function() { 
-    activar_baner(true);
+    activar_baner(false);
     //slider de sponsor
     $("#owl-sponsor").owlCarousel({ 
       autoPlay: 3000, //Set AutoPlay to 3 seconds 
