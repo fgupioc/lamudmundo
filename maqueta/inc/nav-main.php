@@ -27,7 +27,7 @@
                     </li><!--//dropdown--> 
                     <li class="nav-item"><a href="actualidad-blog.php">Actualidad</a></li>
                     <li class="nav-item"><a href="about.html">Turismo</a></li> 
-                    <li class="nav-item last"><a href="contact.html">Contacto</a></li>
+                    <li class="nav-item "><a href="contacto-blog.php">Contacto</a></li>
                 </ul><!--//nav-->
             </div><!--//navabr-collapse-->
         </nav><!--//main-nav-->
