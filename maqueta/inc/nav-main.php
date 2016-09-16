@@ -25,7 +25,7 @@
                             <li><a href="404.html">404 Page</a></li>            
                         </ul>
                     </li><!--//dropdown--> 
-                    <li class="nav-item"><a href="about.html">Actualid</a></li>
+                    <li class="nav-item"><a href="about.html">Actualidad</a></li>
                     <li class="nav-item"><a href="about.html">Turismo</a></li> 
                     <li class="nav-item last"><a href="contact.html">Contacto</a></li>
                 </ul><!--//nav-->

@@ -1,4 +1,5 @@
 $(document).ready(function() { 
+    activar_baner(true);
     //slider de sponsor
     $("#owl-sponsor").owlCarousel({ 
       autoPlay: 3000, //Set AutoPlay to 3 seconds 
@@ -62,5 +63,23 @@ $(document).ready(function() {
             'display': 'none' 
         });
      });
+    //funcion para activar el baner
+    function activar_baner(bolean) {
+        if(bolean){
+            $('.der').css({
+            'display': 'none' 
+         }); 
+            $('.izq').css({
+            'display': 'none' 
+        });
+        }else{
+            $('.der').css({
+            'display': 'block' 
+         }); 
+            $('.izq').css({
+            'display': 'block' 
+        });
+        } 
+    }
     
 });

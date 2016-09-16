@@ -100,24 +100,14 @@ transform: scale(1.2);
     background-repeat: no-repeat;
      background-attachment: fixed;
 }
-/*
- .banner_bot{
-        position: absolute;  
-        left:50%; 
-        bottom: 50px;
-        width:728px; 
-        margin-left:-364px; 
-        height:90px;   
-        z-index: 20;
-        background-position: 0 0;
-        background-repeat: no-repeat;
-         background-attachment: fixed;
-    }*/
+
 .der {
     right: 0px;
+    display: none;
 }
 .izq{
     left: 0px;
+     display: none;
 }          
 .banner_background{    
     width: 100%;

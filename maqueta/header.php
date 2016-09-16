@@ -41,8 +41,7 @@
           <span aria-hidden="true">&times;</span>
         </button> 
         </div>
-    </section>
-        
+    </section> 
     <div class="header-wrapper header-wrapper-home">
         <!-- ******HEADER****** --> 
       <?php include("inc/nav-main.php") ?>  
@@ -50,5 +49,5 @@
        <?php include("inc/slider-main.php") ?> 
        
     </div><!--//header-wrapper-->
-
+    
       
