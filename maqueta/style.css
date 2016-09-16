@@ -100,6 +100,7 @@ transform: scale(1.2);
     background-repeat: no-repeat;
      background-attachment: fixed;
 }
+/*
  .banner_bot{
         position: absolute;  
         left:50%; 
@@ -111,7 +112,7 @@ transform: scale(1.2);
         background-position: 0 0;
         background-repeat: no-repeat;
          background-attachment: fixed;
-    }
+    }*/
 .der {
     right: 0px;
 }

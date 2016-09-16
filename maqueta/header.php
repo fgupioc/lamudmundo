@@ -42,13 +42,7 @@
         </button> 
         </div>
     </section>
-        <section class="banner_bot">
-        <div class="banner_background" style="background-image: url('img/banner4.gif');"> 
-        <button type="button" class="close" id="publicidad2" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button> 
-        </div>
-    </section>
+        
     <div class="header-wrapper header-wrapper-home">
         <!-- ******HEADER****** --> 
       <?php include("inc/nav-main.php") ?>  
