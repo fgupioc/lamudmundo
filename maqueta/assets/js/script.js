@@ -36,29 +36,29 @@ $(document).ready(function() {
         var barra = $(window).scrollTop();
         var posicion = barra*1;
        if (barra>50) {
-         $('.banner1').css({
+         $('.der').css({
             'top': ''+(50+posicion)+'px'
         });
-          $('.banner2').css({
+          $('.izq').css({
             'top': ''+(50+posicion)+'px'
         });
        }else{
-        $('.banner1').css({
+        $('.der').css({
             'top': '59px'
         });
-        $('.banner2').css({
+        $('.izq').css({
             'top': '59px'
         });
        } 
     });
 
      $('#publicidad1').click(function(){ 
-         $('.banner1').css({
+         $('.der').css({
             'display': 'none' 
         });
      });
      $('#publicidad2').click(function(){ 
-         $('.banner2').css({
+         $('.izq').css({
             'display': 'none' 
         });
      });

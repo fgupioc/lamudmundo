@@ -28,21 +28,27 @@
 </head> 
 
 <body class="home-page">   
-    <section class="banner1 der" >
-        <div class="banner_right" style="background-image: url('img/banne1.jpg');"> 
+    <section class="banner der" >
+        <div class="banner_background" style="background-image: url('img/banne1.jpg');"> 
         <button type="button" class="close" id="publicidad1" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button> 
         </div>
     </section>
-     <section class="banner2 izq">
-        <div class="banner_left" style="background-image: url('img/banne1.jpg');"> 
+     <section class="banner izq">
+        <div class="banner_background" style="background-image: url('img/banne1.jpg');"> 
         <button type="button" class="close" id="publicidad2" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button> 
         </div>
     </section>
-     
+        <section class="banner_bot">
+        <div class="banner_background" style="background-image: url('img/banner4.gif');"> 
+        <button type="button" class="close" id="publicidad2" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> 
+        </div>
+    </section>
     <div class="header-wrapper header-wrapper-home">
         <!-- ******HEADER****** --> 
       <?php include("inc/nav-main.php") ?>  
@@ -51,4 +57,4 @@
        
     </div><!--//header-wrapper-->
 
-    
+      
