@@ -589,13 +589,13 @@ body.no-header-wrapper {
 
 .who .benefits .item .fs1 {
     font-size: 36px;
-    color: #65758e;
+    color: white;
 }
 
 .who .benefits .item-inner {
     padding: 30px;
     padding-top: 45px;
-    background: #f8f9fa;
+    background: rgba(59, 68, 82, 0.51);
     border-radius: 51px 51px 51px 51px;
     -moz-border-radius: 51px 51px 51px 51px;
     -webkit-border-radius: 51px 51px 51px 51px;
@@ -606,11 +606,11 @@ body.no-header-wrapper {
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 15px;
-    color: #505c70;
+    color: white;
 }
 
 .who .benefits .desc {
-    color: #65758e;
+    color: white;
 }
 
 /* ======= Latest work ======= */

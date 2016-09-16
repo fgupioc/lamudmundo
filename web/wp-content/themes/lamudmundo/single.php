@@ -1,4 +1,4 @@
-<?php get_header()?>
-<h1> detalle del blog</h1>
+<?php
+get_template_part('inc/blog','post');
 
-<?php get_footer()?>
+ ?>

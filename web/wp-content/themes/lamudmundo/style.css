@@ -152,6 +152,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
         width: 130px !important;
         height: 430px !important;
     }
+    .item-inner{
+        height: 210px;
+    }
+    .desc{
+        display: none;
+    }
 }
 
 /* Para 480px */
@@ -160,6 +166,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
         width: 100px !important;
         height: 400px !important;
     }
+    .item-inner{
+        height: 210px;
+    }
+    .desc{
+        display: none;
+    }
 }
 
 /* Para 320px */
@@ -167,6 +179,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
     .banner {
         width: 80px !important;
         height: 350px !important;
+    }
+    .item-inner{
+        height: 210px;
+    }
+    .desc{
+        display: none;
     }
 }   
 

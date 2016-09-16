@@ -7,7 +7,7 @@
         <p class="intro text-center">Las fiestas patronales de Lámud se celebran el 14 de septiembre, día de la fiesta
             del Señor de Gualamita, advocación muy venerada en la zona y es visitada por más de 10 000 devotos.</p>
         <div class="row benefits text-center">
-            <div class="item col-md-3 col-sm-6 col-xs-12">
+            <div class="item col-md-3 col-sm-6 col-xs-6">
                 <div class="item-inner">
                     <div class="fs1">
                         <i class="fa fa-bicycle circulo-item"></i>
@@ -19,7 +19,7 @@
                     </div>
                 </div>
             </div><!--//item-->
-            <div class="item col-md-3 col-sm-6 col-xs-12 sm-break">
+            <div class="item col-md-3 col-sm-6 col-xs-6 sm-break">
                 <div class="item-inner">
                     <div class="fs1">
                         <i class="fa fa-binoculars circulo-item"></i>
@@ -31,7 +31,7 @@
                     </div>
                 </div><!--//item-inner-->
             </div><!--//item-->
-            <div class="item col-md-3 col-sm-6 col-xs-12">
+            <div class="item col-md-3 col-sm-6 col-xs-6">
                 <div class="item-inner">
                     <div class="fs1"><i class="fa fa-map-signs circulo-item" aria-hidden="true"></i></div>
                     <h3 class="sub-title">High quality code</h3>
@@ -41,7 +41,7 @@
                     </div>
                 </div><!--//item-inner-->
             </div><!--//item-->
-            <div class="item col-md-3 col-sm-6 col-xs-12">
+            <div class="item col-md-3 col-sm-6 col-xs-6">
                 <div class="item-inner">
                     <div class="fs1"><i class="fa fa-bed circulo-item"></i></div>
                     <h3 class="sub-title">No overheads</h3>
