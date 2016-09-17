@@ -7,50 +7,35 @@
         <p class="intro text-center">Las fiestas patronales de Lámud se celebran el 14 de septiembre, día de la fiesta
             del Señor de Gualamita, advocación muy venerada en la zona y es visitada por más de 10 000 devotos.</p>
         <div class="row benefits text-center">
-            <div class="item col-md-3 col-sm-6 col-xs-6">
-                <div class="item-inner">
-                    <div class="fs1">
-                        <i class="fa fa-bicycle circulo-item"></i>
-                    </div>
-                    <h3 class="sub-title">Skilled team</h3>
-                    <div class="desc">
-                        <p>Tell your potential client why they should choose your service and how you are different from
-                            your competitors.</p>
-                    </div>
-                </div>
-            </div><!--//item-->
-            <div class="item col-md-3 col-sm-6 col-xs-6 sm-break">
-                <div class="item-inner">
-                    <div class="fs1">
-                        <i class="fa fa-binoculars circulo-item"></i>
-                    </div>
-                    <h3 class="sub-title">Agile approach</h3>
-                    <div class="desc">
-                        <p>Tell your potential client why they should choose your service and how you are different from
-                            your competitors.</p>
-                    </div>
-                </div><!--//item-inner-->
-            </div><!--//item-->
-            <div class="item col-md-3 col-sm-6 col-xs-6">
-                <div class="item-inner">
-                    <div class="fs1"><i class="fa fa-map-signs circulo-item" aria-hidden="true"></i></div>
-                    <h3 class="sub-title">High quality code</h3>
-                    <div class="desc">
-                        <p>Tell your potential client why they should choose your service and how you are different from
-                            your competitors.</p>
-                    </div>
-                </div><!--//item-inner-->
-            </div><!--//item-->
-            <div class="item col-md-3 col-sm-6 col-xs-6">
-                <div class="item-inner">
-                    <div class="fs1"><i class="fa fa-bed circulo-item"></i></div>
-                    <h3 class="sub-title">No overheads</h3>
-                    <div class="desc">
-                        <p>Tell your potential client why they should choose your service and how you are different from
-                            your competitors.</p>
-                    </div>
-                </div><!--//item-inner-->
-            </div><!--//item-->
+            <article>
+                <?php $args = array(
+                    'posts_per_page' => 5,
+                    'cat' => 22,
+                    'tag__in' => array(23)
+                ); ?>
+                <?php $the_query = new WP_Query($args); ?>
+                <?php while ($the_query->have_posts()) : $the_query->the_post();
+                    $img_url = wp_get_attachment_url(get_post_thumbnail_id($post->ID));
+                    ?>
+                    <div class="item col-md-3 col-sm-6 col-xs-6">
+                        <a  href="<?php the_permalink() ?>" class="title_hacer">
+                        <div class="item-inner">
+                            <div class="fs1">
+                                 
+                                <h2><?php echo $valor ?></h2>
+                                <img src="">
+                                    <?php echo get_post_meta( $post->ID, 'icono_de_la_actividad', true )?>
+
+                            </div>
+                            <h3 class="sub-title"><h3><?php the_title(); ?></h3>
+                        </div>
+                        </a>
+                    </div><!--//item-->
+                    <?php
+                endwhile;
+                wp_reset_postdata();
+                ?>
+            </article>
         </div><!--//row-->
         <!--<a class="btn btn-cta btn-cta-secondary" href="about.html">More about us</a>-->
     </div><!--//container-->

@@ -128,7 +128,16 @@ Use it to make something cool, have fun, and share what you've learned with othe
     -o-background-size: cover;
     background-size: cover;
 }
-
+.contenido{
+    text-align: justify;
+}
+.title_hacer{
+    color: white;
+}
+.title_hacer:hover{
+    text-decoration: none;
+    color: white;
+}
 /* Para 960px */
 @media only screen and (max-width: 980px) and (min-width: 821px) {
     .banner {
