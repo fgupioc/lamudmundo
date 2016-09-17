@@ -26,7 +26,7 @@ define('DB_NAME', 'lamudmundo');
 define('DB_USER', 'root');
 
 /** Contraseña del usuario de la base de datos de MySQL */
-define('DB_PASSWORD', '123456');
+define('DB_PASSWORD', '');
 
 /** Nombre del servidor de MySQL (generalmente es localhost) */
 define('DB_HOST', 'localhost');

@@ -1,7 +1,8 @@
-<?php get_header(); ?>  
-<?php get_template_part('inc/slider','main'); ?>
+<?php get_header(); ?>
+<?php get_template_part('inc/slider', 'main'); ?>
 <!-- ******Why Section****** -->
-<section id="who" class="who section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/iglesia_lamud.jpg');">
+<section id="who" class="who section"
+         style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/iglesia_lamud.jpg');">
     <div class="container text-center">
         <h2 class="title text-center">!Lo que se puede encontrar¡</h2>
         <p class="intro text-center">Las fiestas patronales de Lámud se celebran el 14 de septiembre, día de la fiesta
@@ -18,17 +19,18 @@
                     $img_url = wp_get_attachment_url(get_post_thumbnail_id($post->ID));
                     ?>
                     <div class="item col-md-3 col-sm-6 col-xs-6">
-                        <a  href="<?php the_permalink() ?>" class="title_hacer">
-                        <div class="item-inner">
-                            <div class="fs1">
-                                 
-                                <h2><?php echo $valor ?></h2>
-                                <img src="">
-                                    <?php echo get_post_meta( $post->ID, 'icono_de_la_actividad', true )?>
-
-                            </div>
-                            <h3 class="sub-title"><h3><?php the_title(); ?></h3>
-                        </div>
+                        <a href="<?php the_permalink() ?>" class="title_hacer">
+                            <?php
+                            $image = get_field('icono_actividad');
+                            if (!empty($image)): ?>
+                                <div class="item-inner" style=" background-image: url('<?php echo $image['url']; ?>');">
+                                    <!--div class="fs1">
+                                        <img style="    width: 139px;  height: 76px;" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+                                    </div-->
+                                    <!---->
+                                </div>
+                            <?php endif; ?>
+                            <h3 class="sub-title"><?php the_title(); ?></h3>
                         </a>
                     </div><!--//item-->
                     <?php
@@ -41,6 +43,7 @@
     </div><!--//container-->
 </section>
 <!--//who-->
+
 <!-- ******Latest work section****** -->
 <section id="latest-work" class="latest-work section">
     <div class="container-fluid text-center">
@@ -136,7 +139,8 @@
 </section>
 <!--//latest-work-->
 <!-- ******Latest blog Section****** -->
-<section id="latest-blog" class="latest-blog section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/huayllabelen.jpg');">
+<section id="latest-blog" class="latest-blog section"
+         style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/huayllabelen.jpg');">
     <div class="container">
         <h2 class="title text-center">Nuevos Blogs</h2>
         <div class="row">
@@ -263,18 +267,30 @@
         <h2 class="title">Se uno de Ellos</h2>
         <p class="intro">Gracia por confiar en nosotros</p>
         <div id="owl-sponsor">
-            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-1.png" alt="Owl Image"></div>
-            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-2.png" alt="Owl Image"></div>
-            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-3.png" alt="Owl Image"></div>
-            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-4.png" alt="Owl Image"></div>
-            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-5.png" alt="Owl Image"></div>
-            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-6.png" alt="Owl Image"></div>
-            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-7.png" alt="Owl Image"></div>
-            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-8.png" alt="Owl Image"></div>
-            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-3.png" alt="Owl Image"></div>
-            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-4.png" alt="Owl Image"></div>
-            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-5.png" alt="Owl Image"></div>
-            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-6.png" alt="Owl Image"></div>
+            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-1.png"
+                                   alt="Owl Image"></div>
+            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-2.png"
+                                   alt="Owl Image"></div>
+            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-3.png"
+                                   alt="Owl Image"></div>
+            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-4.png"
+                                   alt="Owl Image"></div>
+            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-5.png"
+                                   alt="Owl Image"></div>
+            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-6.png"
+                                   alt="Owl Image"></div>
+            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-7.png"
+                                   alt="Owl Image"></div>
+            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-8.png"
+                                   alt="Owl Image"></div>
+            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-3.png"
+                                   alt="Owl Image"></div>
+            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-4.png"
+                                   alt="Owl Image"></div>
+            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-5.png"
+                                   alt="Owl Image"></div>
+            <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-6.png"
+                                   alt="Owl Image"></div>
         </div>
     </div><!--//container-->
 </section>

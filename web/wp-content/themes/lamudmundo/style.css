@@ -138,6 +138,22 @@ Use it to make something cool, have fun, and share what you've learned with othe
     text-decoration: none;
     color: white;
 }
+.item-inner{
+    height: 120px;
+}
+.who .benefits .item-inner {
+    background-repeat: no-repeat;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    opacity: 0.6;
+}
+.who .benefits .item-inner:hover {
+    opacity: 1;
+}
 /* Para 960px */
 @media only screen and (max-width: 980px) and (min-width: 821px) {
     .banner {
@@ -161,9 +177,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
         width: 130px !important;
         height: 430px !important;
     }
-    .item-inner{
-        height: 210px;
-    }
+
     .desc{
         display: none;
     }
@@ -175,11 +189,16 @@ Use it to make something cool, have fun, and share what you've learned with othe
         width: 100px !important;
         height: 400px !important;
     }
-    .item-inner{
-        height: 210px;
-    }
+
     .desc{
         display: none;
+    }
+
+    .sub-title{
+        display: none;
+    }
+    .fs1 img{
+        margin-left: -25px;
     }
 }
 
@@ -189,11 +208,16 @@ Use it to make something cool, have fun, and share what you've learned with othe
         width: 80px !important;
         height: 350px !important;
     }
-    .item-inner{
-        height: 210px;
-    }
+
     .desc{
         display: none;
+    }
+
+    .sub-title{
+        display: none;
+    }
+    .fs1 img{
+        margin-left: -25px;
     }
 }   
 

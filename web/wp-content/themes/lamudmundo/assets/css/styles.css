@@ -593,8 +593,8 @@ body.no-header-wrapper {
 }
 
 .who .benefits .item-inner {
-    padding: 30px;
-    padding-top: 45px;
+    padding: 20px 0 20px 0;
+    margin: 0 15px 0 15px;
     background: rgba(59, 68, 82, 0.51);
     border-radius: 51px 51px 51px 51px;
     -moz-border-radius: 51px 51px 51px 51px;
@@ -604,7 +604,7 @@ body.no-header-wrapper {
 
 .who .benefits .sub-title {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 26px;
     margin-bottom: 15px;
     color: white;
 }
