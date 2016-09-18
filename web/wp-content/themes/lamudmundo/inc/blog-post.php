@@ -1,7 +1,7 @@
+<?php setPostViews(get_the_ID()); ?>
 <?php get_header(); ?>
 <!-- ******Blog Post****** -->
 <div class="blog-post-wrapper container" style="margin-top:50px ">
-    <?php setPostViews(get_the_ID()); ?>
     <div class="row">
         <div class="blog-entry col-md-8 col-sm-8 col-xs-12">
             <article class="post">
